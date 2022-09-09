@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>tailwind css</title>
+  </head>
+  <body>
+    <div
+      class="flex items-center justify-between flex-wrap bg-gray-200 p-6 w-4/5 m-auto"
+    >
+      <div
+        class="container-logo flex items-center flex-shrink-0 text-white mr-6"
+      >
+        <img
+          src="./src/assets/vector.svg"
+          alt="logo"
+          class="fill-current mr-2"
+        />
+        <h1 class="text-gray-700 font-bold tracking-tight">LaslesVPN</h1>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4"
+          >
+            Docs
+          </a>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black mr-4"
+          >
+            Examples
+          </a>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-700 hover:text-black"
+          >
+            Blog
+          </a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <button
+            class="inline-block text-sm px-4 py-2 leading-none text-gray-700 hover:border-red-300 hover:text-red-500 hover:bg-transparent mt-4 lg:mt-0"
+          >
+            Sign In
+          </button>
+        </div>
+        <div>
+          <button
+            class="inline-block text-sm px-4 py-2 leading-none border rounded text-red-500 border-red-500 hover:border-red-300 hover:text-red-500 hover:bg-transparent mt-4 lg:mt-0"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
