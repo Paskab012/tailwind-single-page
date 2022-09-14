@@ -8,44 +8,43 @@
 
     <title>tailwind css</title>
   </head>
-  <body class="bg-gray-300">
-    <div class="grid lg:grid-cols-2 bg-gray-100">
+  <body class="bg-gray-100">
+    <div class="grid lg:grid-cols-2 bg-gray-100 2xl:grid-cols-5">
       <div
-        class="px-8 py-12 space-y-6 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full"
+        class="px-8 py-12 space-y-6 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2"
       >
-      <div class="">
-
-      </div>
-        <img class="h-10" src="/src/assets/logo.svg" alt="logo" />
-        <img
-          class="rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
-          src="/src/assets/beachwork.jpeg"
-          alt="beackwork"
-        />
-        <h1
-          class="text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          <br class="hidden lg:inline" />
-          <span class="text-indigo-400"
-            >Non natus blanditiis voluptatum cupiditate.</span
+        <div class="xl:max-w-xl">
+          <img class="h-10" src="/src/assets/logo.svg" alt="logo" />
+          <img
+            class="rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
+            src="/src/assets/beachwork.jpeg"
+            alt="beackwork"
+          />
+          <h1
+            class="text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
           >
-        </h1>
-        <p class="text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quo
-          facilis maxime quidem. Dolor reprehenderit sed in animi at
-          exercitationem! Et qui repudiandae impedit doloremque. Earum dolores
-          optio itaque facilis!
-        </p>
-        <div class="mt-4">
-          <a
-            class="inline-block bg-indigo-600 text-white rounded-lg px-5 py-3 shadow-lg uppercase tracking-wider font-semibold text-sm"
-            href="#"
-            >Book your space</a
-          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <br class="hidden lg:inline" />
+            <span class="text-indigo-400"
+              >Non natus blanditiis voluptatum cupiditate.</span
+            >
+          </h1>
+          <p class="text-gray-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quo
+            facilis maxime quidem. Dolor reprehenderit sed in animi at
+            exercitationem! Et qui repudiandae impedit doloremque. Earum dolores
+            optio itaque facilis!
+          </p>
+          <div class="mt-4">
+            <a
+              class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg px-5 py-3 shadow-lg uppercase tracking-wider font-semibold text-sm"
+              href="#"
+              >Book your space</a
+            >
+          </div>
         </div>
       </div>
-      <div class="hidden relative lg:block">
+      <div class="hidden relative lg:block 2xl:col-span-3">
         <img
           class="absolute inset-0 w-full h-full shadow-xl object-cover"
           src="/src/assets/beachwork.jpeg"
